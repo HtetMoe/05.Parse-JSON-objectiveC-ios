@@ -17,6 +17,7 @@
 		0D23F091274240EC008B8A34 /* API_CallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23F090274240EC008B8A34 /* API_CallTests.m */; };
 		0D23F09B274240EC008B8A34 /* API_CallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23F09A274240EC008B8A34 /* API_CallUITests.m */; };
 		0D23F09D274240EC008B8A34 /* API_CallUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23F09C274240EC008B8A34 /* API_CallUITestsLaunchTests.m */; };
+		0D23F0AC27424B8F008B8A34 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23F0AB27424B8F008B8A34 /* Course.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		0D23F096274240EC008B8A34 /* API CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D23F09A274240EC008B8A34 /* API_CallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = API_CallUITests.m; sourceTree = "<group>"; };
 		0D23F09C274240EC008B8A34 /* API_CallUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = API_CallUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0D23F0AA27424B8F008B8A34 /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		0D23F0AB27424B8F008B8A34 /* Course.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +111,9 @@
 				0D23F075274240EA008B8A34 /* AppDelegate.m */,
 				0D23F077274240EA008B8A34 /* SceneDelegate.h */,
 				0D23F078274240EA008B8A34 /* SceneDelegate.m */,
-				0D23F07A274240EA008B8A34 /* ViewController.h */,
-				0D23F07B274240EA008B8A34 /* ViewController.m */,
-				0D23F07D274240EA008B8A34 /* Main.storyboard */,
+				0D23F0AD27424B96008B8A34 /* Model */,
+				0D23F0AE27424BA3008B8A34 /* Views */,
+				0D23F0A927424B64008B8A34 /* Controllers */,
 				0D23F080274240EB008B8A34 /* Assets.xcassets */,
 				0D23F082274240EB008B8A34 /* LaunchScreen.storyboard */,
 				0D23F085274240EB008B8A34 /* Info.plist */,
@@ -134,6 +137,32 @@
 				0D23F09C274240EC008B8A34 /* API_CallUITestsLaunchTests.m */,
 			);
 			path = "API CallUITests";
+			sourceTree = "<group>";
+		};
+		0D23F0A927424B64008B8A34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D23F07A274240EA008B8A34 /* ViewController.h */,
+				0D23F07B274240EA008B8A34 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0D23F0AD27424B96008B8A34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D23F0AA27424B8F008B8A34 /* Course.h */,
+				0D23F0AB27424B8F008B8A34 /* Course.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D23F0AE27424BA3008B8A34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D23F07D274240EA008B8A34 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +299,7 @@
 				0D23F076274240EA008B8A34 /* AppDelegate.m in Sources */,
 				0D23F087274240EB008B8A34 /* main.m in Sources */,
 				0D23F079274240EA008B8A34 /* SceneDelegate.m in Sources */,
+				0D23F0AC27424B8F008B8A34 /* Course.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
